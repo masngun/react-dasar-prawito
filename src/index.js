@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// contoh functional componen
+// function HelloComponen () {
+//   return <p>Hello Functional Component</p>
+// }
+
+//functional komponen diatas bisa dituliskan dengan es6 
+//jadi seperti ini atau arrow function, ini statefull Component
+const HelloComponen = () => {
+  return <p>Hello Functional Component</p>
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HelloComponen />
   </React.StrictMode>,
   document.getElementById('root')
 );
