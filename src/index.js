@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponen from './component/HelloComponent';
+//import HelloComponen from './component/HelloComponent';
 //import StateFullComponent from './container/StateFullComponent';
+//import YoutubeComp from './component/YoutubeComp/YoutubeComp';
+import Home from './container/Home/Home';
 
 // contoh functional componen
 // function HelloComponen () {
@@ -26,7 +28,7 @@ import HelloComponen from './component/HelloComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloComponen />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
