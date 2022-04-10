@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloComponen from './component/HelloComponent';
+//import StateFullComponent from './container/StateFullComponent';
 
 // contoh functional componen
 // function HelloComponen () {
@@ -11,9 +13,16 @@ import reportWebVitals from './reportWebVitals';
 
 //functional komponen diatas bisa dituliskan dengan es6 
 //jadi seperti ini atau arrow function, ini statefull Component
-const HelloComponen = () => {
-  return <p>Hello Functional Component</p>
-}
+// const HelloComponen = () => {
+//   return <p>Hello Functional Component</p>
+// }
+
+//SteteFull Compnent
+// class StateFullComponent extends React.Component {
+//   render() {
+//     return <p>StateFullComponent</p>
+//   }
+// }
 
 ReactDOM.render(
   <React.StrictMode>
